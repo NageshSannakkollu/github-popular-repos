@@ -1,0 +1,37 @@
+/* Write your CSS here */
+
+.github-popular-repos-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.languages-tab-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 50%;
+  height: 80px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.repository-tab-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.popular-heading {
+  font-weight: 600;
+  font-family: 'Lobster';
+  font-size: 45px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.failure-view-image {
+  height: 400px;
+  width: 450px;
+}
